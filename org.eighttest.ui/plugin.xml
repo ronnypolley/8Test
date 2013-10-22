@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="org.eighttest.ui.preference.EightTestMainPreferencePage"
+            id="org.eighttest.ui.mainprefpage"
+            name="8Test">
+      </page>
+   </extension>
+
+</plugin>
