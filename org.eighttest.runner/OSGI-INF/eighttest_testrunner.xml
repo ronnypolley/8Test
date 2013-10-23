@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" deactivate="deactivate" immediate="true" name="org.eighttest.runner">
+   <implementation class="org.eighttest.runner.testrunner.EightTestRunner"/>
+   <service>
+      <provide interface="org.eighttest.runner.IEightTestRunner"/>
+   </service>.runner.testrunner.EightTestRunner"/>
+</scr:component>
