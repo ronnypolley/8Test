@@ -6,7 +6,7 @@
       <page
             class="org.eighttest.ui.preference.EightTestMainPreferencePage"
             id="org.eighttest.ui.mainprefpage"
-            name="8Test">
+            name="%page.name">
       </page>
    </extension>
 
