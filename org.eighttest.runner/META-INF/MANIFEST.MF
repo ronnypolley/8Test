@@ -6,4 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Service-Component: OSGI-INF/eighttest_testrunner.xml
-Import-Package: org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.core.resources
+Import-Package: org.eclipse.debug.core
