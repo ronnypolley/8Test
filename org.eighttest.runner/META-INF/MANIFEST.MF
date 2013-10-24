@@ -8,4 +8,7 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Service-Component: OSGI-INF/eighttest_testrunner.xml
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.core.resources
-Import-Package: org.eclipse.debug.core
+Import-Package: org.eclipse.core.runtime;version="3.4.0",
+ org.eclipse.core.runtime.jobs,
+ org.eclipse.debug.core,
+ org.eclipse.jdt.core
