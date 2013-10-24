@@ -5,4 +5,5 @@
   <groupId>org.eighttest</groupId>
   <artifactId>mvnroot</artifactId>
   <version>1.0.0-SNAPSHOT</version>
+  <name>8Test</name>
 </project>
