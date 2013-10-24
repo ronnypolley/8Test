@@ -1,3 +1,4 @@
 8Test
 =====
-a continous testing module for eclipse.
+A continous testing module for Eclipse, with support of LaunchConfigurations and Eclipse-Plugin-Tests.
+
