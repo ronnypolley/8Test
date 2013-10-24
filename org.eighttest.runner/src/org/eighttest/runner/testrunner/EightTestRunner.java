@@ -66,7 +66,7 @@ public class EightTestRunner implements IEightTestRunner,
 	 */
 	@Override
 	public void resourceChanged(IResourceChangeEvent event) {
-		Job job = new Job("Fetch all Tests") {
+		Job job = new Job("Fetch all Tests") { //$NON-NLS-1$
 
 			@Override
 			protected IStatus run(IProgressMonitor monitor) {
